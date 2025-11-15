@@ -2,8 +2,11 @@
 services:
   firstweb:
     build: .
+
+    image: darshandcode/web:latest
+
     ports:
-        - 80:80
+        - 800:80
     environment:
         - PYTHONBUFFERED=1
   
