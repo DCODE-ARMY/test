@@ -6,3 +6,5 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('api/add/', views.add_numbers_api, name='add_api'),
 ]
+
+",nbvvhggvgv"
